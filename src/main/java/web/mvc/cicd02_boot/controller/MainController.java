@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class MainController {
     @GetMapping("/")
     public String index(){
-        return "GitHub Actions를 이용한 CI/CD 테스트입니다. - 집에 가고 싶어요(?)";
+        return "GitHub Actions를 이용한 CI/CD 테스트입니다. - failed check";
     }
 }
